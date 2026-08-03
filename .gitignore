@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Database (SQLite - ignore if you use it locally)
+db.sqlite3
+
+# Database dump files (important! ignore your big SQL file)
+*.sql
+*.dump
+
+# Django static/media
+/static/
+/media/
+*.log
+
+# Environment variables (secrets!)
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Deployment scripts (optional)
+deploy.sh

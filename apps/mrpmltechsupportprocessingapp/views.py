@@ -194,6 +194,7 @@ class PmlTechSupportProcessingViewSet(viewsets.ReadOnlyModelViewSet):
                 'comment': log.comment,
                 'performed_by': log.performed_by,
                 'date': log.performed_date,
+                
             }
             for log in logs
         ]
